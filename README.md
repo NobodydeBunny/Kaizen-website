@@ -1,4 +1,5 @@
 > <h1> ${\color{purple}Kaizen \space Website}$</h1>
+> <a href="https://nobodydebunny.github.io/Kaizen-website/Website/homepage.html">Kaizen</a>
 
 Kaizen-website is a lightweight, student-level static website built as a mini project for university. It showcases basic web design with HTML, CSS, and JavaScript, and includes simple interactive features and visual components.
 
