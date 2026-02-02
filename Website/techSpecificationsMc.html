@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mamushi X3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Images/logof.png" type="image/png">
+    </head>
+    <body>
+        <header>
+            <nav class="left">
+                <a href="mouse.html">Mamushi</a>
+            </nav>
+                <a href="homepage.html" class="logo"><img src="images/logo.png" alt="LOGO"></a>
+            <nav class="right">
+                <a href="keyboard.html">Hellblaze</a>
+            </nav>
+                <a class="cart" href="cart.html"><img src="images/cart.png"></a>
+        </header>
+        <section class="tech_bnner">
+            <div class="tb_name">
+                <p>Kaizen Mamushi X3<p>
+                <ul class="bttns">
+                    <li><a id="ov-btn" href="mouse.html">Overview</a></li>
+                    <li><a id="ts-btn" href="techSpecificationsMc.html">Tech Specs</a></li>
+                </ul>
+            </div>
+        </section>
+
+    <div id="tsdiv1">
+        <section>
+            <div id="tsdiv2" class="imageholder">
+                <img class="imgts" src="Images/mcfe.jpg" alt="image">
+                <img class="imgts" src="Images/mcg1.jpg" alt="image">
+                <img class="imgts" src="Images/mcg2.jpg" alt="image">
+                <img class="imgts" src="Images/mcg3.jpg" alt="image">
+                <img class="imgts" src="Images/mcg4.jpg" alt="image">
+                <img class="imgts" src="Images/mcg5.jpg" alt="image">
+                <img class="imgts" src="Images/mcg5.jpg" alt="image">
+                <img class="imgts" src="Images/mcg6.jpg" alt="image">
+                <img class="imgts" src="Images/mcf1.jpg" alt="image">
+                <img class="imgts" src="Images/mcf2.jpg" alt="image">
+                <img class="imgts" src="Images/mcf3.jpg" alt="image">
+        
+                <button class="prevts" onclick="changeSlideTS(-1)">&#10094;</button>
+                <button class="nextts" onclick="changeSlideTS(1)">&#10095;</button>
+            </div>
+            <div class="dotts" id="dotm">
+                <span class="dottsk" onclick="setSlideTS(1)"></span>
+                <span class="dottsk" onclick="setSlideTS(2)"></span>
+                <span class="dottsk" onclick="setSlideTS(3)"></span>
+                <span class="dottsk" onclick="setSlideTS(4)"></span>
+                <span class="dottsk" onclick="setSlideTS(5)"></span>
+                <span class="dottsk" onclick="setSlideTS(6)"></span>
+                <span class="dottsk" onclick="setSlideTS(7)"></span>
+                <span class="dottsk" onclick="setSlideTS(8)"></span>
+                <span class="dottsk" onclick="setSlideTS(9)"></span>
+                <span class="dottsk" onclick="setSlideTS(10)"></span>
+                <span class="dottsk" onclick="setSlideTS(11)"></span>
+            </div>
+        </section>
+        <div class="detailsts">
+    <p id="titlets">Mamushi X3 Wireless Mouse</p>
+
+    <div class="color-picker">
+        <div class="color-item color-option" data-color="Black" data-color-code="#000000">
+            <img src="Images/mcg1.jpg" alt="Black mouse">
+            <p>Black</p>
+        </div>
+
+        <div class="color-item color-option" data-color="Red" data-color-code="#ff0000">
+            <img src="Images/mcg2.jpg" alt="Red mouse">
+            <p>Red</p>
+        </div>
+
+        <div class="color-item color-option" data-color="White" data-color-code="#ffffff">
+            <img src="Images/mcg3.jpg" alt="White mouse">
+            <p>White</p>
+        </div>
+
+        <div class="color-item color-option" data-color="Purple" data-color-code="#9578a4">
+            <img src="Images/mcg4.jpg" alt="Purple mouse">
+            <p>Purple</p>
+        </div>
+
+        <div class="color-item color-option" data-color="Orange" data-color-code="#FF5c00">
+            <img src="Images/mcg5.jpg" alt="Orange mouse">
+            <p>Orange</p>
+        </div>
+    </div>
+
+    <p class="addetail" id="price">99.99 USD</p>
+    <p class="addetail">Color: <span id="selected-color">None</span></p>
+
+    <button id="cartts" type="button" disabled onclick="addToCart()">Add to Cart</button>
+    <button id="buyts" type="button" disabled onclick="window.location.href='checkout.html'">Buy Now</button>
+</div>
+
+    
+    </div>
+
+    <div class="Specsts">
+        <h2>Technical SpecifiCations</h2>
+        <table id="tstable1" border="1">
+            <tr>
+                <th class="col1">Connection</th>
+                <th class="col2">Wired/2.4G/BT5.2</th>
+            </tr>
+            <tr>
+                <th class="col1">Size</th>
+                <th class="col2">118.5*61*39.7mm</th>
+            </tr>
+            <tr>
+                <th class="col1">DPI</th>
+                <th class="col2">26000</th>
+            </tr>
+            <tr>
+                <th class="col1">Weight</th>
+                <th class="col2">49g±3g</th>
+            </tr>
+            <tr>
+                <th class="col1">Return Rate</th>
+                <th class="col2">1000Hz</th>
+            </tr>
+            <tr>
+                <th class="col1">Sensor</th>
+                <th class="col2">PixArt PAW3395</th>
+            </tr>
+            <tr>
+                <th class="col1">Kailh Switch</th>
+                <th class="col2">Black Mamba 80 million times</th>
+            </tr>
+            <tr>
+                <th class="col1">Working Life</th>
+                <th class="col2">200H</th>
+            </tr>
+            <tr>
+                <th class="col1">Accelerated Speed</th>
+                <th class="col2">50G</th>
+            </tr>
+        </table>
+</div>
+
+    </div>
+    <footer>
+        <div class="logo_f">
+            <a href="homepage.html"><img class="logofoot" src="Images/logo.png" alt="logo"></a>
+            <ul class="social">
+                <li><a href="#fb"><img id="logofb" src="Images/fb.png" alt="fb"></a></li>
+                <li><a href="#Insta"><img id="logoinsta" src="Images/insta.png" alt="insta"></a></li>
+                <li><a href="#X"><img id="logoX" src="Images/x.png" alt="x"></a></li>
+            </ul>
+        </div>
+        <div class="links_f">
+            <ul class="links">
+                <li><a href="#link1">About us</a></li>
+                <li><a href="#link1">Contact</a></li>
+            </ul>
+            <ul class = "terms">
+                <li><p>&copy;Kaizen inc. All rights resereved</p></li>
+                <li><a href="#privacy">Privacy policy</a></li>
+                <li><a href="#terms">Terms of service</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
