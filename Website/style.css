@@ -74,7 +74,7 @@ header{
     color: #492950;
     background-color: #9578a4;
     position:sticky;
-    height: 2.5rem;
+    height: 3rem;
     width: 100%;
     padding: 0.3rem;
     text-align: center;
@@ -1147,4 +1147,5 @@ label {
     margin-right: 2%;
     margin-top: 2%;
 }
+
 
