@@ -878,7 +878,7 @@ footer p {
     color: #ffc9b0;
 }
 
-
+/*buttons in add to cart and buy now*/
 .detailsts button {
     position: relative;
     background-color: #e91e63;
@@ -892,6 +892,11 @@ footer p {
     left: 35%;
 }
 
+.detailsts button:hover{
+    background-color: #eaeaea;
+    color: #e91e63;
+}
+/**/
 .Specsts{
     width: 100%;
     margin: 20px 0;
@@ -1202,6 +1207,7 @@ label {
     margin-right: 2%;
     margin-top: 2%;
 }
+
 
 
 
