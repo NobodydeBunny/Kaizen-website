@@ -1172,8 +1172,8 @@ label {
     width: 100%;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #44345b;
-    color: white;
+    background-color: #df4b6f;
+    color: #eaeaea;
     border: none;
     font-size: 16px;
     text-align: center;
@@ -1182,7 +1182,8 @@ label {
   }
   
 .checkout-btn:hover {
-    background-color: #44345b;
+    background-color: #eaeaea;
+    color: #df4b6f;
     filter: brightness(1.5);
   }
 
@@ -1207,6 +1208,7 @@ label {
     margin-right: 2%;
     margin-top: 2%;
 }
+
 
 
 
