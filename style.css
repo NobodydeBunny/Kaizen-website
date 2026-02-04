@@ -511,7 +511,8 @@ footer p {
 }
 
 .select-kb a:hover{
-    background-color: #ff4b6f;
+    background-color: #eaeaea;
+    color: #e91e63;
     transform: scale(1.1);
 }
 
@@ -531,12 +532,14 @@ footer p {
 
 .select-kb #color1{
     position: relative;
+    color: whitesmoke;
     top: -20%;
     left: 12%;
     width: 20%;
 }
 .select-kb #color2{
     position: relative;
+    color: rgb(30, 144, 255);
     top: -30.5%;
     left: 44%;
     width: 20%;
@@ -673,6 +676,16 @@ footer p {
     text-align: center;
 }
 
+.ms-item #c1 {
+    color: orange;
+}
+.ms-item #c2 {
+    color: plum;
+}
+.ms-item #c3 {
+    color: red;
+}
+
 /* buy button */
 .buy-btn {
     align-self: center;
@@ -792,7 +805,7 @@ footer p {
 .activets, .dottsk:hover {
     background-color: rgba(149, 120, 169, 0.9); ;
 }
-/*buttns*/
+
 #tsdiv1{
     display: flex; 
     justify-content: space-between; 
@@ -842,6 +855,12 @@ footer p {
     font-size: 0.9rem;
     color: #df4b6f;
     text-align: center;
+}
+.color-item #c4{
+    color: #eaeaea;
+}
+.color-item #c5{
+    color: #1E90FF;
 }
 
 .color-item.selected img {
@@ -1168,4 +1187,5 @@ label {
     margin-right: 2%;
     margin-top: 2%;
 }
+
 
