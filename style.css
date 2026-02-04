@@ -959,8 +959,23 @@ footer p {
 .color-item p {
     margin-top: 0.4rem;
     font-size: 0.9rem;
-    color: #df4b6f;
     text-align: center;
+}
+
+.color-item #c6 {
+    color: #eaeaea;
+}
+.color-item #c7 {
+    color: #ff0000;
+}
+.color-item #c8 {
+    color: #ffffff;
+}
+.color-item #c9 {
+    color: plum;
+}
+.color-item #c10 {
+    color: #FF5c00;
 }
 
 #price {
@@ -1187,5 +1202,6 @@ label {
     margin-right: 2%;
     margin-top: 2%;
 }
+
 
 
